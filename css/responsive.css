@@ -1,0 +1,250 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (max-width: 767px) {
+  .banner{
+    padding: 0;
+  }
+  .container{
+    width: 90%;
+  }
+  /*.bottom-header{
+    display: none;
+  }*/
+  .first, .middle, .last{
+    display: block;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+  .top-header{
+    padding: 32px 0px;
+  }
+  .banner-content h1{
+  font-size: 11vw;
+  color: white;
+  font-family: 'Amatic SC', cursive;
+  font-weight: 400;
+  line-height: 1.3;
+}
+.banner-content p{
+  font-size: 10px;
+}
+.banner-btn{
+  font-size: 12px;
+}
+.feature-gallery {
+  display: grid;
+  grid-template-columns: auto;
+  text-align: center;
+}
+.f-item{
+  margin-bottom: 16px;
+}
+.fc-gallery{
+  display: flex;
+  flex-direction: column;
+}
+.fc-item{
+  flex-basis: 100%;
+}
+.second{
+  background-image: none;
+}
+.product-gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-row-gap: 32px;
+  margin-top: 32px;
+}
+.deal-right .price span {
+  font-size: 15px;
+  font-weight: 500;
+}
+.deal-right h3 {
+  font-family: 'Lora', serif;
+  font-size: 28px;
+  color: #82ae46;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+.deal-right p {
+  font-size: 12px;
+  color: #808080;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 1.9;
+}
+.deal-right h2 {
+  font-size: 36px;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.deal-right h5 {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+  color: #82ae46;
+  font-style: italic;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+.deal-row{
+    display: flex;
+    flex-direction: column;
+}
+.deal-left, .deal-right {
+  background-color: white;
+  padding: 16px 44px;
+}
+.application-row {
+  display: grid;
+  grid-template-columns: auto;
+}
+.image {
+  text-align: center;
+  margin-bottom: 16px;
+}
+.subscribe-row {
+  display: flex;
+  flex-direction: column;
+}
+.s-right a button {
+  background-color: #82ae46;
+  font-size: 13px;
+  font-weight: 300;
+  color: white;
+  padding: 0px 16px;
+  border: none;
+  font-family: 'Poppins', sans-serif;
+  height: 52px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.s-left, .s-right {
+  flex-basis: 50%;
+  margin-top: 25px;
+}
+.section-title h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 24px;
+  font-size: 36px;
+  color: #000;
+  font-weight: 600;
+}
+.section-title p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #808080;
+  font-weight: 400;
+}
+.testimonial-item p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #808080;
+  font-weight: 400;
+  margin-bottom: 42px;
+  padding: 0px 18px;
+  border-left: 2px solid #eee;
+  position: relative;
+}
+.main-footer {
+  display: flex;
+  margin-bottom: 42px;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-1 {
+  flex-basis: 20%;
+  margin-right: 36px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+}
+.footer-2 {
+  flex-basis: 20%;
+  margin-right: 36px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+}
+.footer-3 {
+  flex-basis: 20%;
+  margin-right: 36px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+}
+.footer-4 {
+  flex-basis: 20%;
+  margin-right: 36px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 50px;
+}
+center {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+/*@media (min-width: 320px) and (max-width: 480px) {
+  
+ 
+  
+}*/

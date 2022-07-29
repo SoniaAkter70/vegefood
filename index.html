@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Vegefoods</title>
+	<!-- owl css -->
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<!-- css link -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!-- google fonts link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<!-- font awesome link -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+</head>
+<body onload="loading();">
+	<!-- header section code start -->
+	<header>
+		<!-- preloader -->
+        <div id="preloader"></div>
+        <!-- preloader -->
+		<!-- top header section -->
+		<div class="top-header">
+			<div class="container">
+				<span class="first">
+					<i class="fa fa-phone"></i>
+					<span>+ 1235 2355 98</span>
+				</span>
+				<span class="middle">
+					<i class="fa fa-paper-plane"></i>
+					<span>YOUREMAIL@EMAIL.COM</span>
+				</span>
+				<span class="last">3-5 BUSINESS DAYS DELIVERY & FREE RETURNS</span>
+			</div>
+		</div>
+		<!-- bottom header -->
+		<div class="bottom-header">
+			<div class="container">
+				<div class="navber">
+					<div class="logo">
+						<a href="">Vegefoods</a>
+					</div>
+					<div class="menu">
+						<ul>
+							<li><a href="">Home</a></li>
+							<li>
+								<a href="">Shop <i class="fa fa-caret-down"></i></a>
+								<div class="has-submenu">
+									<ul class="sub-menu">
+										<li><a href="">Shop</a></li>
+										<li><a href="">Wishlist</a></li>
+										<li><a href="">Single Product</a></li>
+										<li><a href="">Cart</a></li>
+										<li><a href="">Checkout</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="">About</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="">
+								<i class="fa fa-shopping-cart"></i>[0]
+							</a></li>
+						</ul>
+					</div>
+
+					<span class="hamburger-icon" onclick="openMenu()"><i class="fa fa-bars"></i></span>
+					<div class="mobile-menu">
+						<div id="cross" onclick="closeMenu()"></div>
+						<ul>
+							<li><a href="">Home</a></li>
+							<li>
+								<a href="">Shop <i class="fa fa-caret-down"></i></a>
+								<div class="has-submenu">
+									<ul class="sub-menu">
+										<li><a href="">Shop</a></li>
+										<li><a href="">Wishlist</a></li>
+										<li><a href="">Single Product</a></li>
+										<li><a href="">Cart</a></li>
+										<li><a href="">Checkout</a></li>
+									</ul>
+								</div>
+							</li>
+							<li><a href="">About</a></li>
+							<li><a href="">Blog</a></li>
+							<li><a href="">Contact</a></li>
+							<li><a href="">
+								<i class="fa fa-shopping-cart"></i>[0]
+							</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header section code end -->
+
+	<!-- Banner section code start -->
+	<section class="banner">
+		<div class="container">
+			<video src="img/video4.mp4" autoplay loop plays-inline muted class="bg-video"></video>
+			<div class="banner-content">
+				<h1>We Serve Fresh Vegetables & Fruits</h1>
+				<p>We deliver organic vegetables & fruits</p>
+				<a href="" class="banner-btn">View Details</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- Banner section code end -->
+
+	<!-- Feature section code start -->
+	<section class="feature">
+		<div class="container">
+			<div class="feature-gallery">
+				<div class="f-item">
+					<span>
+						<img src="icon/shipped.png">
+					</span>
+					<h6> Free Shipping</h6>
+					<p>On Order Over $100</p>
+				</div>
+				<div class="f-item">
+					<span>
+						<img src="icon/diet.png">
+					</span>
+					<h6> Always Fresh</h6>
+					<p>Product Well Package</p>
+				</div>
+				<div class="f-item">
+					<span>
+						<img src="icon/award.png">
+					</span>
+					<h6> Superior Quality</h6>
+					<p>Quality Products</p>
+				</div>
+				<div class="f-item">
+					<span>
+						<img src="icon/customer-service.png">
+					</span>
+					<h6> Support</h6>
+					<p>24/7 Support</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Feature section code end -->
+	<!-- category section code start -->
+	<section class="food-category">
+		<div class="container">
+			<div class="fc-gallery">
+
+				<div class="fc-item">
+					<!-- item 1 -->
+					<div class="fc-content">
+						<img src="img/veg.png">
+						<a href="">Fruits</a>
+					</div>
+					<!-- item 2 -->
+					<div class="fc-content">
+						<img src="img/strawbery.png">
+						<a href="">Vegetables</a>
+					</div>
+				</div>
+				<div class="fc-item second">
+					
+						<h2>Vegetables</h2>
+						<p>Protect the health of every home</p>
+						<a href="" class="banner-btn">Shop Now</a>
+					
+				</div>
+				<div class="fc-item">
+					<!-- item 3 -->
+					<div class="fc-content">
+						<img src="img/juice.png">
+						<a href="">Juices</a>
+					</div>
+					<!-- item 4 -->
+					<div class="fc-content">
+						<img src="img/dried.png">
+						<a href="">Dried</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- category section code end -->
+	<!-- products section code start -->
+	<section class="products">
+		<div class="container">
+			<!-- section title -->
+			<div class="section-title">
+				<h6>Featured Products</h6>
+				<h2>Our Products</h2>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+			</div>
+			<!-- All products section -->
+			<div class="product-gallery">
+				<!-- Item 01 -->
+				<div class="product-item">
+					<img src="img/product1.png">
+					<h6><a href="">Bell Pepper</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 02 -->
+				<div class="product-item">
+					<img src="img/product2.png">
+					<h6><a href="">Strawberry</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 03 -->
+				<div class="product-item">
+					<img src="img/product3.png">
+					<h6><a href="">Green Beans</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 04 -->
+				<div class="product-item">
+					<img src="img/product4.png">
+					<h6><a href="">Purple Cabbage</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 05 -->
+				<div class="product-item">
+					<img src="img/product5.png">
+					<h6><a href="">Tomatoe</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 06 -->
+				<div class="product-item">
+					<img src="img/product6.png">
+					<h6><a href="">Brocolli</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 07 -->
+				<div class="product-item">
+					<img src="img/product7.png">
+					<h6><a href="">Carrots</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+				<!-- Item 08 -->
+				<div class="product-item">
+					<img src="img/product8.png">
+					<h6><a href="">Fruit Juice</a></h6>
+					<div class="price">
+						<span><del>$120.00</del></span>
+						<span>$80.00</span>
+					</div>
+					<span class="offer">30%</span>
+					<div class="product-icon">
+						<a href=""><i class="fa fa-bars"></i></a>
+						<a href=""><i class="fa fa-shopping-cart"></i></a>
+						<a href=""><i class="fa fa-heart"></i></a>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!-- products section code end -->
+
+	<!-- all popup code start -->
+	<div class="quickView-modal1">
+		<div class="item-wrapper1">
+			<div class="closebtn1" onclick="closeModal()"></div>
+			<img src="img/product1.png">
+			<h2>Bell Paper</h2>
+			<p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		    ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		    amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		    odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+			<button>Add to cart</button>
+		</div>
+	</div>
+	<!-- all popup code end -->
+	<!-- deal section code start -->
+	<section class="deal">
+		<div class="container">
+			<div class="deal-row">
+				<div class="deal-left">
+					<!-- no content -->
+				</div>
+				<div class="deal-right">
+					<h5>Best Price For You</h5>
+					<h2>Deal of the day</h2>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia</p>
+					<h3>Spinach</h3>
+					<div class="price">
+						<span>$10</span>
+						<span>now $5 only</span>
+					</div>
+					<div class="countdown">
+						<div class="time">
+							<h2 id="days"></h2>
+							<span>Days</span>
+						</div>
+						<div class="time">
+							<h2 id="hours"></h2>
+							<span>Hours</span>
+						</div>
+						<div class="time">
+							<h2 id="minutes"></h2>
+							<span>Min</span>
+						</div>
+						<div class="time">
+							<h2 id="seconds"></h2>
+							<span>Sec</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- deal section code end -->
+	<!-- accordion section code start -->
+	<!-- accordion section -->
+	<section class="acc">
+		<div class="container">
+			<div class="section-title">
+				<h2>Accordion </h2>
+			</div>
+		    <div id="accordi">
+		          <h3>Section 1</h3>
+		          <div>
+		            <p>
+		            Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+		            ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+		            amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+		            odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+		            </p>
+		          </div>
+		          <h3>Section 2</h3>
+		          <div>
+		            <p>
+		            Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+		            purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+		            velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+		            suscipit faucibus urna.
+		            </p>
+		          </div>
+		          <h3>Section 3</h3>
+		          <div>
+		            <p>
+		            Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+		            Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+		            ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+		            lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+		            </p>
+		            <ul>
+		              <li>List item one</li>
+		              <li>List item two</li>
+		              <li>List item three</li>
+		            </ul>
+		          </div>
+		          <h3>Section 4</h3>
+		          <div>
+		            <p>
+		            Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+		            et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+		            faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+		            mauris vel est.
+		            </p>
+		            <p>
+		            Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+		            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+		            inceptos himenaeos.
+		            </p>
+		          </div>
+		    </div>
+		</div>
+	</section>
+	<!-- accordion section code end -->
+	<!-- testimonial section code start -->
+	<section class="testimonial">
+		<div class="container">
+			<!-- section title -->
+			<div class="section-title">
+				<h6>Testimony</h6>
+				<h2>Our satisfied customer says</h2>
+				<p>Far far away, behind the word mountains, far from the countries Vokalia and<br> Consonantia, there live the blind texts. Separated they live in</p>
+			</div>
+			<div class="owl-carousel owl-theme mt-4">
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/men1.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+			    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/men1.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/man2.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/men1.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/men1.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/man3.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/men1.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			    <div class="item">
+				    	<div class="testimonial-item">
+						<div class="userimg">
+							<img src="img/men1.png">
+							<i class="fa fa-quote-left"></i>
+						</div>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+						<h4>Garreth Smith</h4>
+						<h6>WEB DEVELOPER</h6>
+					</div>
+			    </div>
+			</div>
+		</div>
+	</section>
+	<!-- testimonial section code end -->
+	<!-- application  section code start -->
+	<section class="application">
+		<div class="container">
+			<div class="application-row">
+				<div class="image"><a href=""><img src="img/microsoft.png"></a></div>
+				<div class="image"><a href=""><img src="img/android.png"></a></div>
+				<div class="image"><a href=""><img src="img/java.png"></a></div>
+				<div class="image"><a href=""><img src="img/google.png"></a></div>
+				<div class="image"><a href=""><img src="img/adobe.png"></a></div>
+			</div>
+		</div>
+	</section>
+	<!-- application  section code end -->
+	<!-- form section code start -->
+	<section class="subscribe">
+		<div class="container">
+			<div class="subscribe-row">
+				<div class="s-left">
+					<h3>Subcribe to our Newsletter</h3>
+					<p>Get e-mail updates about our latest shops and special offers</p>
+				</div>
+				<div class="s-right">
+					<form>
+						<input type="email" name="" placeholder="Enter email address">
+						<a href=""><button>Subscribe</button></a>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- form section code end -->
+	<!-- footer section code start -->
+	<footer>
+		<div class="container">
+			<div class="main-footer">
+				<div class="footer-1">
+					<h6>Vegefoods</h6>
+					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia.</p>
+					<div class="f-icon">
+						<a href=""><i class="fa fa-twitter"></i></a>
+						<a href=""><i class="fa fa-facebook"></i></a>
+						<a href=""><i class="fa fa-instagram"></i></a>
+					</div>
+				</div>
+				<div class="footer-2">
+					<h6>Menu</h6>
+					<ul class="f-menu">
+						<li><a href="">Shop</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">Journal</a></li>
+						<li><a href="">Contact us</a></li>
+					</ul>
+				</div>
+				<div class="footer-3">
+					<h6>Help</h6>
+					<ul class="f-menu">
+						<li><a href="">Shipping Information</a></li>
+						<li><a href="">Returns & Exchange</a></li>
+						<li><a href="">Terms & Conditions</a></li>
+						<li><a href="">Privacy Policy</a></li>
+					</ul>
+				</div>
+				<div class="footer-4">
+					<h6>Have a Questions?</h6>
+					<p class="d-flex"><span><i class="fa fa-map-marker"></i></span><span>203 Fake St. Mountain View, San Francisco, California, USA</span></p>
+					<p><i class="fa fa-phone"></i>+2 392 3929 210</p>
+					<p><i class="fa fa-envelope"></i>info@yourdomain.com</p>
+				</div>
+			</div>
+			<center>Copyright ©2022 All rights reserved | This template is made with <i class="fa fa-heart"></i> by <a href="">Sonia</a></center>
+		</div>
+	</footer>
+	<!-- footer section code end -->
+	<a href="#" id="scrolltop"><i class="fa fa-arrow-up"></i></a>
+
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
